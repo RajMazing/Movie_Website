@@ -16,7 +16,7 @@ body {
 .navbar-container {
   display: flex;
   align-items: center; 
-  background-color: #ffebcd;
+  font-family: 'Sen', sans-serif;
   padding: 0 50px;
   height: 100%;
   color: white;
@@ -26,21 +26,44 @@ body {
 
 .logo-container {
    flex: 1;
-   background-color: blue;
+  
   }  
 
   .logo {
-    font-family: 'Sen', sans-serif;
+    
+    font-size: 30px;
+    color: blue;
   }
 
 .menu-container {
   flex: 6;
-  background-color: purple;
+ 
+}
+
+.menu-list {
+      display: flex;
+      list-style: none;
+}
+
+.menu-list-item {
+    margin-right: 30px;
+
+}
+
+.menu-list-item.active {
+  font-weight: bold;
 }
 
 .profile-container { 
   flex: 2;
-  background-color: red;
+  
+}
+
+.profile-picture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
